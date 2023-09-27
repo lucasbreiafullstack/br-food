@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,13 +36,37 @@
 
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link"></a>
+              <a href="#home" class="nav__link active-link">Home</a>
             </li>
 
             <li class="nav__item">
-              <a href="#" class="nav__link"></a>
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Menu</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Serviços</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#reservation" class="nav__link">Reservas</a>
             </li>
           </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-circle-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-togle">
+            <i class="ri-menu-line"></i>
+          </div>
+
+          <a href="#reservation" class="button reservation__btn">Reserve uma Mesa</a>
         </div>
       </nav>
     </header>
@@ -117,7 +141,31 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about" id="about"></section>
+      <section class="about container section" id="about">
+        <div class="section__container grid">
+          <div class="section__group">
+            <div class="span section__subtitle">Sobre o BRFood</div>
+            <h2 class="section__title">Novo espaço com novos pratos para degustar.</h2>
+          </div>
+
+          <div class="section__group">
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Officia perspiciatis similique necessitatibus animi quasi porro maiores vero fuga, 
+              fugiat eveniet temporibus sunt ratione assumenda commodi totam in quia repudiandae 
+              architecto!
+            </p>
+
+            <div class="section__data">
+              <img src="assets/img/girl.jpg" alt="" class="section__img">
+
+              <div>
+                <h3 class="section__data-title">Bruna Lopes</h3>
+                <p class="section__data-description">CEO BRFood</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== MENU ====================-->
       <section class="menu" id="menu"></section>
